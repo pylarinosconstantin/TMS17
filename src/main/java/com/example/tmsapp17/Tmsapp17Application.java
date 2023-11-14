@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Tmsapp17Application {
 
-@GetMapping
+@GetMapping("/message")
 	public String message(){
 		return"it is connected 17";
 	}
